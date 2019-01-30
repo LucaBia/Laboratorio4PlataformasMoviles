@@ -1,5 +1,6 @@
 package com.example.gianlucariverabiagioni.lab4
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.design.widget.NavigationView
@@ -61,6 +62,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         when (item.itemId) {
             R.id.nav_camera -> {
                 // Handle the camera action
+                val intent = Intent(this, HomeActivity::class.java)
+                startActivity(intent)
             }
             R.id.nav_gallery -> {
 
