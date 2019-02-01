@@ -2,7 +2,7 @@ package com.example.gianlucariverabiagioni.lab4
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.design.widget.NavigationView
+
 
 class HomeActivity : AppCompatActivity() {
 

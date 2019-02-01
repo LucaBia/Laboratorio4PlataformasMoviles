@@ -66,7 +66,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 startActivity(intent)
             }
             R.id.nav_gallery -> {
-
+                val intent2 = Intent(this, ProjectsActivity::class.java)
+                startActivity(intent2)
             }
             R.id.nav_slideshow -> {
 
