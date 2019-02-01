@@ -70,7 +70,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 startActivity(intent2)
             }
             R.id.nav_slideshow -> {
-
+                val intent3 = Intent(this, MapsActivity::class.java)
+                startActivity(intent3)
             }
         }
 
