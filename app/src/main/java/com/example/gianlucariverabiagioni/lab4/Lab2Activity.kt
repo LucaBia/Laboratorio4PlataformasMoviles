@@ -12,7 +12,9 @@ class Lab2Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lab1)
 
+        //Declaracion del WebView
         val myWebView: WebView = this.findViewById(R.id.WebView1)
+        //Se pasa el link que se desea observar en el webview
         myWebView.loadUrl("https://github.com/LucaBia/ProgramacionPlataformasM-vilesUVG/tree/master/Lab3Contactos")
 
     }

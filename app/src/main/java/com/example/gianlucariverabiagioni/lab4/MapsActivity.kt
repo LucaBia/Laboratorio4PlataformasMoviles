@@ -36,8 +36,11 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap = googleMap
 
         // Add a marker in Sydney and move the camera
+        //Se colocan las coordenadas de guatemala en una variable para que aparezcan en el mapa
         val guate = LatLng(14.6229, -90.5315)
+        //Se agrega el marcador al mapa
         mMap.addMarker(MarkerOptions().position(guate).title("Guatemala"))
+        //Posiciona la camara para que se muestre en pantalla la posicion
         mMap.moveCamera(CameraUpdateFactory.newLatLng(guate))
     }
 }
